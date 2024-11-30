@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Ayo wassup, you're visiting my blog. There's nothing but thanks for paying a visit, bro.
