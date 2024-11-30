@@ -1,0 +1,10 @@
+_site
+.sass-cache
+.jekyll-metadata
+
+_drafts/
+
+.vscode/
+
+.env
+.DS_Store
