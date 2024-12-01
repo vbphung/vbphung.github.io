@@ -1,8 +1,9 @@
 source "https://rubygems.org"
 gem "jekyll", "~> 4.3.4"
-gem "minima", "~> 2.5"
+gem "minima", git: "https://github.com/jekyll/minima"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-remote-theme", "~> 0.4.3"
 end
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
