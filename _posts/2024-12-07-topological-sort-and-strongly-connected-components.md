@@ -4,6 +4,8 @@ title: Topological Sort and Strongly Connected Components
 date: 2024-12-07
 ---
 
+It was [5AM](https://music.youtube.com/watch?v=wm1PCnYym6U&si=vL07KPxIck0-pXxa) of my overnight, so I had to have my lil GPT fix my grammar and vocabulary. Therefore, some parts might sound a bit AI-generated.
+
 <script type="text/javascript" async  
      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">  
 </script>
@@ -11,8 +13,6 @@ date: 2024-12-07
 This blog is about [Advent of Code 2024 - Day 5](https://adventofcode.com/2024/day/5), Part 2 of which must be solved using Topological Sort. However, I solved it by brute force and then was coincidentally taught about Topological Sort that same night.
 
 I also found [a similar blog](https://abhamra.com/blog/aoc24day5/) that sounds more interesting than what I'm going to write here.
-
-**TODO** - add some illustrations
 
 # DAG and Topological Sort
 
