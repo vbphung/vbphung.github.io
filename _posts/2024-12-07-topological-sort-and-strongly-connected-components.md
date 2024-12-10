@@ -18,13 +18,11 @@ I also found [a similar blog](https://abhamra.com/blog/aoc24day5/) that sounds m
 
 A Directed Acyclic Graph (DAG), as its name suggests, is a directed graph with no cycles and has practical applications:
 
-- **Data processing** - IPFS uses DAG to represent its hierarchical data structure.
-- **Task scheduling** - DAG can be used to sequence tasks while respecting all precedence constraints.
-- **Dependency resolution**... you name it.
+- Data processing - [IPFS](https://ipfs.tech) uses DAG to represent its hierarchical data structure.
+- Task scheduling - DAG can be used to sequence tasks while respecting all precedence constraints.
+- Dependency resolution... you name it.
 
-Regarding the Topological Ordering of a DAG $$G$$, it's a linear ordering of its vertices such that for all $$u$$ and $$v$$ of edge $$(u, v)$$ in $$G$$, $$u$$ comes before $$v$$. From this definition, we can see that Part 2 of AOC2024 - Day 5 is purely about implementing Topological Sort.
-
-## My Topo Implementation
+Regarding the Topological Ordering of a DAG $$G$$, it's a linear ordering of its vertices such that for all $$u$$ and $$v$$ of edge $$(u, v)$$ in $$G$$, $$u$$ comes before $$v$$. From this definition, we can see that Part 2 of AoC2024 - Day 5 is purely about implementing Topological Sort.
 
 There is more than one way to implement Topological Sort: DFS-based and Kahn's algorithm. I personally prefer the former because of its simplicity and better understandability.
 
@@ -124,4 +122,4 @@ void sccs_dfs(const std::vector<std::vector<int>> &arcs,
 
 # Complexity
 
-By leveraging DFS, both Topological Sort and SCCs can be done in linear time, $$O(V + E)$$, where $$V$$ and $$E$$ are the number of vertices and edges, respectively.
+By leveraging DFS, both Topological Sort and Kosaraju's Two-Pass can be done in linear time, $$O(V + E)$$, where $$V$$ and $$E$$ are the number of vertices and edges, respectively.
