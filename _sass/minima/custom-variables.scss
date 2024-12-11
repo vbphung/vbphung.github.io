@@ -1,59 +1,6 @@
-@font-face {
-  font-family: Pitagon Sans Mono;
-  font-style: normal;
-  font-display: auto;
-  font-weight: 400;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/pitagon-sans-mono@latest/latin-400-normal.woff2)
-      format(woff2),
-    url(https://cdn.jsdelivr.net/fontsource/fonts/pitagon-sans-mono@latest/latin-400-normal.woff)
-      format(woff);
-}
-
-@font-face {
-  font-family: Pitagon Sans Mono;
-  font-style: normal;
-  font-display: auto;
-  font-weight: 500;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/pitagon-sans-mono@latest/latin-500-normal.woff2)
-      format(woff2),
-    url(https://cdn.jsdelivr.net/fontsource/fonts/pitagon-sans-mono@latest/latin-500-normal.woff)
-      format(woff);
-}
-
-@font-face {
-  font-family: Pitagon Sans Mono;
-  font-style: normal;
-  font-display: auto;
-  font-weight: 600;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/pitagon-sans-mono@latest/latin-600-normal.woff2)
-      format(woff2),
-    url(https://cdn.jsdelivr.net/fontsource/fonts/pitagon-sans-mono@latest/latin-600-normal.woff)
-      format(woff);
-}
-
-@font-face {
-  font-family: Pitagon Sans Mono;
-  font-style: normal;
-  font-display: auto;
-  font-weight: 700;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/pitagon-sans-mono@latest/latin-700-normal.woff2)
-      format(woff2),
-    url(https://cdn.jsdelivr.net/fontsource/fonts/pitagon-sans-mono@latest/latin-700-normal.woff)
-      format(woff);
-}
-
-@font-face {
-  font-family: Pitagon Sans Mono;
-  font-style: normal;
-  font-display: auto;
-  font-weight: 800;
-  src: url(https://cdn.jsdelivr.net/fontsource/fonts/pitagon-sans-mono@latest/latin-800-normal.woff2)
-      format(woff2),
-    url(https://cdn.jsdelivr.net/fontsource/fonts/pitagon-sans-mono@latest/latin-800-normal.woff)
-      format(woff);
-}
-
-@import url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap);
 
 $base-font-family: Libre Baskerville, serif;
-$code-font-family: Pitagon Sans Mono, monospace;
+$code-font-family: Fira Code, monospace;
+$code-font-feature-settings: "cv02", "ss03", "ss08", "zero";
