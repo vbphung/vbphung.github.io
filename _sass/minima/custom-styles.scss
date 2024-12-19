@@ -1,4 +1,14 @@
 pre,
 code {
   font-feature-settings: $code-font-feature-settings;
+  -webkit-font-feature-settings: $code-font-feature-settings;
+  -moz-font-feature-settings: $code-font-feature-settings;
+}
+
+code > span {
+  font-weight: normal !important;
+}
+
+code > span.k {
+  color: $code-keyword-color !important;
 }
