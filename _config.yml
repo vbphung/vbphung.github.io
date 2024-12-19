@@ -1,10 +1,10 @@
 title: vbphung
-description: Ayo ayo ayo wassup wassup
+description: Jim's personal website
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
 remote_theme: jekyll/minima
 minima:
-  skin: solarized-light
+  skin: dark
 header_pages:
   - blogs.md
