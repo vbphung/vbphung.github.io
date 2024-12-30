@@ -1,7 +1,2 @@
-@import url(https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap);
-
-$base-font-family: Libre Baskerville, serif;
-$code-font-family: Input Mono, JetBrains Mono, monospace;
-$code-font-feature-settings: cv07, cv11, cv12, ss19, zero;
-$code-keyword-color: #859900;
+$code-font-family: monospace;
+$base-font-family: $code-font-family;
