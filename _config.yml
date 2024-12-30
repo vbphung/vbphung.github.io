@@ -3,8 +3,9 @@ description: Jim's personal website
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-seo-tag
 remote_theme: jekyll/minima
 minima:
-  skin: solarized-light
+  skin: auto
 header_pages:
   - blogs.md

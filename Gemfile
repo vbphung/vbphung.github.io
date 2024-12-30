@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 gem "jekyll", "~> 4.3.4"
-gem "minima", git: "https://github.com/jekyll/minima"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-remote-theme", "~> 0.4.3"
+  gem "jekyll-seo-tag", "~> 2.8"
 end
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
@@ -12,3 +12,7 @@ end
 gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "erb", "~> 4.0"
+gem "logger", "~> 1.6"
+gem "csv", "~> 3.3"
+gem "ostruct", "~> 0.6.1"
+gem "base64", "~> 0.2.0"
