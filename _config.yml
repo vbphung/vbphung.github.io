@@ -9,3 +9,10 @@ minima:
   skin: auto
 header_pages:
   - blogs.md
+  - resume.md
+defaults:
+  - scope:
+      path: /assets/resume.pdf
+    values:
+      download: true
+      external_url: /assets/resume.pdf

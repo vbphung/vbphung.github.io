@@ -4,7 +4,13 @@ _site
 
 _drafts/
 
-.vscode/
-
 .env
+
 .DS_Store
+
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.aux

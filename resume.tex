@@ -1,0 +1,165 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\newcommand{\resumeKVItem}[2]{\item\small{\textbf{#1:} #2}}
+
+\newcommand{\resumeSubheading}[4]{
+    \item
+    \begin{tabular*}{1\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textbf{\small#2} \\
+        \textit{\small#3} & \textit{\small#4} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1\textwidth}{l@{\extracolsep{\fill}}r}
+        \small#1 & \textbf{\small#2} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Vo Bui Phu Hung} \\ \vspace{1pt}
+    \small (+84) 33-795-5617 $|$  
+    \href{mailto:vbphung20@apcs.fit.edu.vn}{vbphung20@apcs.fit.edu.vn} $|$  
+    \href{https://www.linkedin.com/in/jimmyvo0512}{\underline{LinkedIn}} $|$  
+    \href{https://github.com/vbphung}{\underline{GitHub}} $|$  
+    \href{https://vbphung.github.io/}{\underline{Website}}
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+        {University of Science - VNUHCM}
+        {2020 - 2024}
+        {Bachelor of Science in Computer Science}
+        {Advanced Program in Computer Science} 
+    \resumeItemListStart
+        \resumeKVItem{GPA}{3.67/4 (8.31/10)}
+        \resumeKVItem{Relevant Courses}{Data Structures \& Algorithms, OOP, Database Management Systems, Computer Hardware, Operating Systems, Mobile Development, 3D Visualization and Game Development}
+        \resumeKVItem{Languages}{English - 7.0 IELTS}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading
+        {Rawbots Interactive Inc.}
+        {Sep 2022 - Sep 2024}
+        {Software Engineer}
+        {Canada (Remote)}
+    \resumeItemListStart
+        \resumeItem{Worked in a team of 3 to design and implement a scalable microservices-based server architecture.}
+        \resumeKVItem{Data Indexing}{Processed bulk on-chain transactions via an injection service from Kafka to MongoDB and Elasticsearch. Provided a thin REST layer for serving indexed data.}
+        \resumeKVItem{Content Delivery}{Integrated IPFS for content delivery and efficient decentralized storage of encrypted user-created content. Built a coordinator dynamically assigning CIDs to external providers with a reward-distribution mechanism.}
+        \resumeKVItem{Mobile Development}{Contributed to a social media application by designing/structuring state management (BLoC), implementing push notifications (FCM), and setting up deployment for Android and iOS.}
+        \resumeKVItem{Cryptography}{Designed a blockchain-based end-to-end encrypted (E2EE) chatting feature and provided cryptographic support to client-side teams.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+        {Gameloft}
+        {Feb 2022 - Aug 2022}
+        {Unity Developer Intern}
+        {Ho Chi Minh City}
+    \resumeItemListStart
+        \resumeItem{Worked in a team of 8 developers to maintain and implement new features in a launched multiplayer game.}
+        \resumeItem{Restructured the hierarchical prefab system, improving modularity and enabling more efficient integration of new content and addons.}
+        \resumeItem{Collaborated with back-end developers to build a Downloadable Content (DLC) system leveraging Unity Addressables.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\textbf{Bitcoin Layer-2 Wallet} $|$ \emph{Graduation Thesis}}
+        {Dec 2023 - Aug 2024}
+    \resumeItemListStart
+        \resumeItem{Supervised by \href{https://www.fit.hcmus.edu.vn/~ttdung/}{\textcolor{blue}{Dr. Tran Trung Dung}} on designing and developing a user-friendly cross-platform desktop cryptocurrency wallet on the Taproot Assets Protocol (TAP) using the Wails framework.}
+        \resumeItem{Researched and integrated relevant technologies, including Lightning Network, for seamless token management.}
+        \resumeItem{Conducted research on a secure and decentralized algorithm to improve TAP’s cumbersome token exchange flow.}
+        \resumeItem{Developed a minimal backend service, enabling seamless token exchange and serving indexed on-chain data. Automated deployment using a CI/CD pipeline.}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+        {\textbf{Online Code Judge} $|$ \emph{\href{https://github.com/vbphung/code-judge}{\textcolor{blue}{GitHub}}}}
+        {Nov 2024}
+    \resumeItemListStart
+        \resumeItem{Implemented in Go, enabling isolated and multi-language code execution using Docker-in-Docker (DinD).}
+        \resumeItem{Utilized the native Docker client to measure execution metrics and employed NATS for asynchronous communication.}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+        {\textbf{Coordinator-free Distributed Database} $|$ \emph{\href{https://github.com/vbphung/raft-sql-db}{\textcolor{blue}{GitHub}}}}
+        {Feb 2025}
+    \resumeItemListStart
+        \resumeItem{Used Raft consensus algorithm to ensure strong consistency and fault tolerance among multiple SQLite nodes.}
+        \resumeItem{Utilized Gossip protocol in Hashicorp’s Memberlist for decentralized cluster membership management.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\resumeSubHeadingListStart
+  \item
+  \resumeItemListStart
+      \resumeKVItem{Languages}{Go, TypeScript, C++, SQL, Dart, C\#}
+      \resumeKVItem{Frameworks \& Skills}{NestJS, MongoDB, Elasticsearch, PostgreSQL, Redis, Raft, Kafka, Protocol Buffers, gRPC, Docker, Unity Engine, Flutter, Lightning Network}
+      \resumeKVItem{Tools \& Technologies}{Docker, Kubernetes, AWS, Google Cloud Platform, Git, CI/CD}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
