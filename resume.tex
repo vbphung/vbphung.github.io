@@ -12,9 +12,12 @@
 \usepackage{tabularx}
 \usepackage{fontawesome5}
 \usepackage{multicol}
+\usepackage{kpfonts}
 
 \setlength{\multicolsep}{-3.0pt}
 \setlength{\columnsep}{-1pt}
+\setlength{\footskip}{4.2pt}
+
 \input{glyphtounicode}
 
 \pagestyle{fancy}
@@ -74,12 +77,13 @@
 \begin{document}
 
 \begin{center}
-    {\Huge \scshape Vo Bui Phu Hung} \\ \vspace{1pt}
+    {\Huge \scshape Vo Bui Phu Hung} \\ \vspace{2pt}
     \small (+84) 33-795-5617 $|$  
     \href{mailto:vbphung20@apcs.fit.edu.vn}{vbphung20@apcs.fit.edu.vn} $|$  
     \href{https://www.linkedin.com/in/jimmyvo0512}{\underline{LinkedIn}} $|$  
     \href{https://github.com/vbphung}{\underline{GitHub}} $|$  
     \href{https://vbphung.github.io/}{\underline{Website}}
+    \vspace{-4pt}
 \end{center}
 
 \section{Education}
@@ -88,7 +92,7 @@
         {University of Science - VNUHCM}
         {2020 - 2024}
         {Bachelor of Science in Computer Science}
-        {Advanced Program in Computer Science} 
+        {Advanced Program in Computer Science}
     \resumeItemListStart
         \resumeKVItem{GPA}{3.67/4 (8.31/10)}
         \resumeKVItem{Relevant Courses}{Data Structures \& Algorithms, OOP, Database Management Systems, Computer Hardware, Operating Systems, Mobile Development, 3D Visualization and Game Development}
@@ -104,10 +108,10 @@
         {Software Engineer}
         {Canada (Remote)}
     \resumeItemListStart
-        \resumeItem{Worked in a team of 3 to design and implement a scalable microservices-based server architecture.}
-        \resumeKVItem{Data Indexing}{Processed bulk on-chain transactions via an injection service from Kafka to MongoDB and Elasticsearch. Provided a thin REST layer for serving indexed data.}
-        \resumeKVItem{Content Delivery}{Integrated IPFS for content delivery and efficient decentralized storage of encrypted user-created content. Built a coordinator dynamically assigning CIDs to external providers with a reward-distribution mechanism.}
-        \resumeKVItem{Mobile Development}{Contributed to a social media application by designing/structuring state management (BLoC), implementing push notifications (FCM), and setting up deployment for Android and iOS.}
+        \resumeItem{Worked (mostly) in a team of 3 to design and implement a scalable microservices-based server architecture.}
+        \resumeKVItem{Data Indexing}{Bulk on-chain transactions processing via an injection service from Kafka to MongoDB and Elasticsearch. Provided a thin REST layer for serving indexed data.}
+        \resumeKVItem{Content Delivery}{Integrated IPFS for content delivery and efficient decentralized storage of encrypted user-generated content. Built a coordinator dynamically assigning CIDs to external providers with a reward-distribution mechanism.}
+        \resumeKVItem{Mobile Development}{Contributed to a social media application by designing/structuring state management (BLoC), implementing push notifications (FCM), and setting up deployment for both Android and iOS.}
         \resumeKVItem{Cryptography}{Designed a blockchain-based end-to-end encrypted (E2EE) chatting feature and provided cryptographic support to client-side teams.}
     \resumeItemListEnd
 
@@ -118,7 +122,7 @@
         {Ho Chi Minh City}
     \resumeItemListStart
         \resumeItem{Worked in a team of 8 developers to maintain and implement new features in a launched multiplayer game.}
-        \resumeItem{Restructured the hierarchical prefab system, improving modularity and enabling more efficient integration of new content and addons.}
+        \resumeItem{Restructured the hierarchical Prefab system, improving modularity and enabling more efficient and time-saving integration of new content and addons.}
         \resumeItem{Collaborated with back-end developers to build a Downloadable Content (DLC) system leveraging Unity Addressables.}
     \resumeItemListEnd
 \resumeSubHeadingListEnd
@@ -130,9 +134,9 @@
         {Dec 2023 - Aug 2024}
     \resumeItemListStart
         \resumeItem{Supervised by \href{https://www.fit.hcmus.edu.vn/~ttdung/}{\textcolor{blue}{Dr. Tran Trung Dung}} on designing and developing a user-friendly cross-platform desktop cryptocurrency wallet on the Taproot Assets Protocol (TAP) using the Wails framework.}
-        \resumeItem{Researched and integrated relevant technologies, including Lightning Network, for seamless token management.}
+        \resumeItem{Researched and integrated relevant technologies, including Lightning Network, for a seamless token management.}
         \resumeItem{Conducted research on a secure and decentralized algorithm to improve TAP’s cumbersome token exchange flow.}
-        \resumeItem{Developed a minimal backend service, enabling seamless token exchange and serving indexed on-chain data. Automated deployment using a CI/CD pipeline.}
+        \resumeItem{Developed a minimal backend service, enabling seamless token exchange and serving indexed on-chain data. Automated deployment by implementing a CI/CD pipeline.}
     \resumeItemListEnd
 
     \resumeProjectHeading
@@ -154,12 +158,12 @@
 
 \section{Technical Skills}
 \resumeSubHeadingListStart
-  \item
-  \resumeItemListStart
-      \resumeKVItem{Languages}{Go, TypeScript, C++, SQL, Dart, C\#}
-      \resumeKVItem{Frameworks \& Skills}{NestJS, MongoDB, Elasticsearch, PostgreSQL, Redis, Raft, Kafka, Protocol Buffers, gRPC, Docker, Unity Engine, Flutter, Lightning Network}
-      \resumeKVItem{Tools \& Technologies}{Docker, Kubernetes, AWS, Google Cloud Platform, Git, CI/CD}
-  \resumeItemListEnd
+    \item
+    \resumeItemListStart
+        \resumeKVItem{Languages}{Go, TypeScript, C++, SQL, Dart, C\#}
+        \resumeKVItem{Frameworks \& Skills}{NestJS, MongoDB, Cassandra, PostgreSQL, Redis, Kafka, Raft, Protocol Buffers, gRPC, Docker, Unity Engine, Flutter, Lightning Network}
+        \resumeKVItem{Tools \& Technologies}{Docker, Kubernetes, AWS, Google Cloud Platform, Git, CI/CD}
+    \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 \end{document}
