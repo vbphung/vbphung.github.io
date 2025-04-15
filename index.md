@@ -5,7 +5,7 @@ permalink: /
 
 Vo Bui Phu Hung (real name in Vietnamese) or Jimmy/Jim in English
 
-Undergraduate student of APCS @ HCMUS (2020–2024)
+Student of APCS @ HCMUS (2020–2024)
 
 Learn psychology and play piano in spare time
 
@@ -16,5 +16,5 @@ Never skip any leg day
     <a href="https://www.linkedin.com/in/jimmyvo0512">LinkedIn</a>
     <a href="mailto:vbphung20@apcs.fitus.edu.vn">Email</a>
     <a href="https://t.me/jimmydrinkscoffee">Telegram</a>
-    <a href="https://music.youtube.com/playlist?list=PLaQ64cBt5-hhavVSSSgLXGA9FeA_8xAx2&si=1a-HNvIVVxZ6w1Hj">Coding Playlist</a>
+    <a href="https://music.youtube.com/playlist?list=PLaQ64cBt5-hhavVSSSgLXGA9FeA_8xAx2&si=1a-HNvIVVxZ6w1Hj">CodingPlaylist</a>
 </div>

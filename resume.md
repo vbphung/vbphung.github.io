@@ -1,6 +1,5 @@
 ---
 title: Résumé
 permalink: /resume/
+redirect_to: /assets/resume.pdf
 ---
-
-<object data="/assets/resume.pdf" type="application/pdf" width="100%" height="1000"></object>
